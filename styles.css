@@ -1,0 +1,119 @@
+body{
+
+  background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left top,right bottom;
+  background-size: 50%, 50%;
+
+}
+
+h1{
+  color:hsl(300, 43%, 22%);
+  font-family: 'League Spartan', sans-serif;
+  text-align: left;
+  font-size: 3rem;
+  
+}
+
+p{
+  color:hsl(300, 43%, 22%);
+  font-family: 'League Spartan', sans-serif;
+  text-align: left;
+
+}
+
+
+.boldText{
+  font-weight: bold;
+}
+
+.star{
+  background-color: hsl(300, 24%, 96%);
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  width: 330px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+.icon{
+  width: 4%;
+  margin: 0 2px 0 0;
+  padding-top: 8px;
+
+}
+
+.starText{
+  text-align: center;
+  padding: 5px 0 0 5px;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+
+}
+
+.topText{
+  display: inline-block;
+  max-width: 750px;
+}
+
+.container{
+  display: inline-block;
+  position: relative;
+  padding-top: 40px;
+
+}
+
+/*Section Bottom*/
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.cards{
+  min-height:364px;
+}
+
+.personImage{
+  border-radius: 50px;
+}
+
+.personBox{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: 5px;
+}
+
+.PersonName{
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  padding: 15px 0 0 15px;
+}
+
+.verified{
+  color: hsl(333, 80%, 67%);
+  padding: 15px 0 0 15px;
+}
+
+.personText{
+  color: hsl(0, 0%, 100%);
+
+
+}
+
+.texts{
+  padding-top: 30px;
+  padding-left: 10px;
+  text-align: left;
+}
